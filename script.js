@@ -26,16 +26,14 @@ const fullProjectArray = [
   let width = document.documentElement.clientWidth;
   let canHeight = mainWindow.clientHeight;
   
-  // Global settings for rain. Note, this is setup only for wind to be positive. If negative, the 'this.x > width+40' will need to be changed to 'this.x < -40'.
   let drops = [];
   const maxDrops = 750;
   const g = 1;
   const wind = 3;
   
-  // Canvas
   const canvas = document.getElementById('canvas');
   const c = canvas.getContext('2d');
-  
+//   hello world
   for (let i = 0; i < sortedArray.length; i++) {
     let projectItem = document.createElement('div');
     projectItem.className = 'projectItem';
