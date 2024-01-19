@@ -52,6 +52,10 @@ const fullProjectArray = [
     projectItem.appendChild(projectLink);
   
   }
+
+  function alpha(){
+    console.log("linus travolus version change");
+  }
   
   function textChange () {
     if ((width > 1895) || (width > 857 && width < 889)) {
