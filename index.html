@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTF</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Menu items -->
+    <div class='row noMar menuBar borBotThick'>
+      <div class='row divLeft'>
+        <img class='logo' src='http://res.cloudinary.com/sefrz/image/upload/v1522249869/jtt4L1C.png'>
+        <h2 class='headerName'><a target='_blank' href='https://codepen.io/chris-simmons/'>Chris Simmons</a></h2>
+      </div>
+      <div class='row divRight'>
+        <ul class='noMar'>
+          <a href='#selectProjects'><li class='menuBtn'>Select Projects</li></a>
+          <a href='#personal'><li class='menuBtn'>About Me</li></a>
+          <a href='#personal'><li class='menuBtn'>Resume</li></a>
+          <a href='#projectsFull'><li class='menuBtn'>All Projects</li></a>
+        </ul>
+      </div>
+    </div>
+  
+    <!-- Main window -->
+    <div class='mainWindow bgDef center borBotThick' id='mainWindow'>
+      <canvas class='canvas' id='canvas'></canvas>
+      <h1 class='slogan'>Complex ideas crafted elegantly</h1>
+      <a class='btnMain' target='_blank' href='https://twitter.com/Chris_S_Esq?lang=en'>Twitter</a>
+      <a class='btnMain' target='_blank' href='https://www.linkedin.com/in/chris-simmons-aa8745147/'>LinkedIn</a>
+      <a class='btnMain' target='_blank' href='https://github.com/chris-simmons'>GitHub</a>
+      <a class='btnMain' target='_blank' href='https://www.freecodecamp.org/fccb10fa3eb-1940-4d9f-b7e6-0ad69b6336f1'>Free Code Camp</a>
+      <a class='btnMain' target='_blank' href='https://www.virtualimmigrationlaw.com'>Law Firm</a>
+    </div>
+  
+    <!-- Projects window -->
+    <div class='selectProjects borBotThick' id='selectProjects'>
+      <h2 class='center black borBotThin'>Select Projects</h2>
+      <div class='gridSelectProjects'>
+        <div class='gridSelectItem bgDef' id='prev1'>
+          <a target='_blank' href='https://www.virtualimmigrationlaw.com'>
+            <div class='gridSelectHover'>
+              <h3 class='center'>The Law Office of Christopher Simmons</h3>
+              <p>Created through wordpress, this is the website I designed and created for my immigration law firm. It is fully functional and operates as the hub for the law firm's business. Because it is a virtual law firm, the website was one of the most important aspects for the business.</p>
+            </div>
+          </a>
+        </div>
+        <div class='gridSelectItem bgDef' id='prev2'>
+          <a target='_blank' href='https://github.com/chris-simmons/SherlockTravelHelper'>
+            <div class='gridSelectHover'>
+              <h3 class='center'>Sherlock Travel Helper</h3>
+              <p>The first android app I made to go with my law firm. Aggregates travel information and displays it for the user dependent on trip information. Works using an SQLite database to pull information from.</p>
+            </div>
+          </a>
+        </div>
+        <div class='gridSelectItem bgDef' id='prev3'>
+          <a target='_blank' href='https://codepen.io/chris-simmons/project/full/DNKLaG/'>
+            <div class='gridSelectHover'>
+              <h3 class='center'>General Restaurant Website</h3>
+              <p>A template for a general restaurant website. It has been premade ready for localization and translation and can be adapted or added onto easily. Additionally, it has been designed to be media responsive without the use of bootstrap. Styled after the colors steakhouses generally use.</p>
+            </div>
+          </a>
+        </div>
+        <div class='gridSelectItem bgDef' id='prev4'>
+          <a target='_blank' href='https://codepen.io/chris-simmons/full/PRgNEe/'>
+            <div class='gridSelectHover'>
+              <h3 class='center'>Matrix Rain</h3>
+              <p>Recreation of the matrix rain from the Matrix movies using JavaScript for a youtube tutorial.</p>
+            </div>
+          </a>
+        </div>
+        <div class='gridSelectItem bgDef' id='prev5'>
+          <a target='_blank' href='https://codepen.io/chris-simmons/full/rdqYqB/'>
+            <div class='gridSelectHover'>
+              <h3 class='center'>Basic Chase Bot</h3>
+              <p>An extremely simple AI which chases a ball if the ball enters it's aggro radius. The AI will chase the ball until it leaves the pacify radius. This uses only vanilla JS and was used to explore some things math related to vectors.</p>
+            </div>
+          </a>
+        </div>
+        <div class='gridSelectItem bgDef' id='prev6'>
+          <a target='_blank' href='https://codepen.io/chris-simmons/full/XExQJb/'>
+            <div class='gridSelectHover'>
+              <h3 class='center'>Particles with Gravity</h3>
+              <p>A simple canvas project which simulates gravity and allows the user to play around with the particles by moving their mouse over the screen. This was mainly a project for me to get better acquainted with canvas.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Combined about and resume -->
+    <div class='personal bgDef noMar borBotThick' id='personal'>
+      <div class='row personalWrapper'>
+        <!-- About me -->
+        <div class='personalBox about alignLeft'>
+          <h3 class='center'>About Me</h3>
+          <p class='paper'><span style='float: left'><img src='https://www.virtualimmigrationlaw.com/wp-content/uploads/2017/12/chrissimtransparent-225x300.png'></span>I am originally from Chattanooga, TN.  I went to university in the south where I was first introduced to the wide diversity within the world.  Instead of backing away, I jumped head first and embraced that diversity.  This eventually led me to law school where I focused on international law, international human rights law, and immigration.  Throughout that journey, I kept two things in mind: behind every problem and decision there are people who are affected, and those people matter.</p>
+          <p class='paper'>As a millennial, I grew up around technology.  That has led me to see the value of convenience and the ability to take care of problems online.  We all lead busy lives, and having to take time off from that life to deal with a legal issue is not only a problem for many, but can sometimes be an impediment to solving the legal issue in the first place.  I’ve decided to embrace not only being a millennial but also embrace the use of technology.  This led me to create a virtual law firm rather than embracing a traditional brick and mortar approach to a law office.</p>
+          <p class='paper'>While developing my law firm, I discovered how much I enjoyed creating websites. As a result, I began teaching myself various coding languages. While I began with creating themes and simple websites for Wordpress, I quickly began to see potential in creating mobile apps and meshing my legal knowledge with what I was learning. My hope is to continue to mesh my legal knowledge and education with my love for programming to bring a unique set of tools to the table.</p>
+        </div>
+  
+        <!-- Resume -->
+        <div class='personalBox noMar alignRight'>
+          <h3 class='center'>Resume</h3>
+          <h4>Education</h4>
+          <p class='paper' id='education0'></p>
+          <p class='paper' id='education1'></p>
+          <p class='paper' id='education2'></p>
+          <h4>Languages</h4>
+          <p class='paper' id='languages'></p>
+          <h4>Work Experience</h4>
+          <p class='paper' id='experience'></p>
+        </div>
+      </div>
+    </div>
+  </body>
+  
+  <!-- Full list of selectProjects -->
+  <div class='fullProjects' id='projectsFull'>
+    <h2 class='borBotThin black center'>Full List of Projects</h2>
+    <div class='gridFullProject' id='gridFullProject'>
+    </div>
+  </div>
+  
+  <footer>
+    <!-- Social Media links (again), menu (again), contact -->
+    <div class='noMar row'>
+      <div class='divLeft'>
+        <h4 class='contact footerText'>Contact me</h4>
+        <p class='address footerText'>You can always contact me at:</br><a class='webLink' href='mailto:csimmon01@jmls.edu'>csimmon01@jmls.edu</a></p>
+    </div>
+  <div class='divRight'>
+    <ul>
+      <a target='_blank' href='https://codepen.io/chris-simmons/'><li class='footerMenu center'>Code Pen</li></a>
+      <a target='_blank' href='https://twitter.com/Chris_S_Esq?lang=en'><li class='footerMenu center'>Twitter</li></a>
+      <a target='_blank' href='https://www.linkedin.com/in/chris-simmons-aa8745147/'><li class='footerMenu center'>LinkedIn</li></a>
+      <a target='_blank' href='https://github.com/chris-simmons'><li class='footerMenu center'>Github</li></a>
+      <a target='_blank' href='https://www.freecodecamp.org/fccb10fa3eb-1940-4d9f-b7e6-0ad69b6336f1'><li class='footerMenu center'>Code Camp</li></a>
+      <a target='_blank' href='https://www.virtualimmigrationlaw.com'><li class='footerMenu center'>Law Firm</li></a>
+    </ul>
+  </div>
+  </div>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
