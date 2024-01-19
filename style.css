@@ -136,9 +136,8 @@ li a {
   display: block;
 }
 
-/* Top Menu */
 .menuBar {
-  background-color: #080706;
+  background-color: #161412;
 }
 
 .logo {
@@ -153,7 +152,7 @@ li a {
 
 .menuBtn {
   float: left;
-  background-color: #EFEFEF;
+  background-color: #faf5f5;
   padding: 16px;
   width: 150px;
   height: 100%;
